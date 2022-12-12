@@ -45,34 +45,10 @@ There are two ways of customizing your website. You can either:
 
     ![screenshot of this repository's GitHub page showing the "Branch" dropdown menu expanded with the "gh-pages" branch selected](fig/select-gh-pages-branch.png?raw=true)
 
-3.  Edit the header of `index.md` to customize the list of instructors,
-    workshop venue, etc.
-    You can do this in the browser by clicking on it in the file view on GitHub
-    and then selecting the pencil icon in the menu bar:
-
-    ![screenshot of top menu bar for GitHub's file interface with the edit icon highlighted in the top right](fig/edit-index-file-menu-bar.png?raw=true)
 
     Editing hints are embedded in `index.md`,
     and full instructions are in [the customization instructions][customization].
 
-4.  Remove the notice about using the workshop template in the `index.md` file. You can safely
-    delete everything between the `{% comment %}` and `{% endcomment %}` (included) as indicated
-    below (about from line 35 to line 51):
-
-    ```jekyll
-    {% comment %} <------------ remove from this line
-    8< ============= For a workshop delete from here =============
-    For a workshop please delete the following block until the next dashed-line
-    {% endcomment %}
-
-    <div class="alert alert-danger">
-      ....
-    </div>
-
-    {% comment %}
-     8< ============================= until here ==================
-    {% endcomment %} <--------- until this line
-    ```
 
 4.  Edit `_config.yml` to customize certain site-wide variables, such as: `carpentry` (to tell your
     participants the lesson program for your workshop), `curriculum` and `flavor` for the
@@ -87,11 +63,14 @@ There are two ways of customizing your website. You can either:
 
 ### Working locally
 
-> Note: you don't have to do this, if you have already updated your site using the web interface.
+> Note: you don't have to do this, if you have already updated your site 
+> using the web interface.
 
 
-If you are already familiar with Git, you can clone the repository to your desktop, edit `index.md`,
-`_config.yml`, and `schedule.html` following the instruction above there, and push your changes back to the repository.
+If you are already familiar with Git, you can clone the repository to 
+your desktop, edit `index.md`, `_config.yml`, and `schedule.html` 
+following the instruction above there, and push your changes back to the 
+repository.
 
 ```shell
 git clone https://github.com/your_username/YYYY-MM-DD-site
@@ -135,11 +114,6 @@ Click 'Edit' and add:
 2.  The URL for your workshop in the "Website" box (e.g., `https://gvwilson.github.io/2016-12-01-oomza`)
 
 This will help people find your website if they come to your repository's home page.
-
-### Update the content of the README file
-
-You can change the `README.md` file in your website's repository, which contains these instructions,
-so that it contains a short description of your workshop and a link to the workshop website.
 
 
 ## Additional Notes
