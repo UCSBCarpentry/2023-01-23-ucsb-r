@@ -198,7 +198,7 @@ special instructions.
 </p>
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
+  <li>Accessible and gender-neutral restrooms are available.</li>
 </ul>
 <p>
   Materials will be provided in advance of the workshop and
