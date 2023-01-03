@@ -359,18 +359,8 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-<h2 id="schedule">Schedule</h2>
-
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% elsif site.carpentry == "incubator" %}
-This workshop is teaching a lesson in [The Carpentries Incubator](https://carpentries-incubator.org/).
-Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings.
-{% endif %}
+<!-- UCSB change: auto-generated schedule -->
+{% include syllabus.html %}
 
 {% comment %}
 Edit/replace the text above if you want to include a schedule table.
