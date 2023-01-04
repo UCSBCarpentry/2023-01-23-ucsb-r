@@ -3,8 +3,8 @@
 # Instead, please edit 07-control-flow.md in _episodes_rmd/
 title: Control Flow
 start: true
-teaching: 45
-exercises: 20
+teaching: 0
+exercises: 0
 questions:
 - "How can I make data-dependent choices in R?"
 - "How can I repeat operations in R?"
