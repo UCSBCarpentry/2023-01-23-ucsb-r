@@ -24,7 +24,7 @@ source: Rmd
 
 One of R's most powerful features is its ability to deal with tabular data -
 such as you may already have in a spreadsheet or a CSV file. Let's start by
-making a toy dataset in your `data/` directory, called `feline-data.csv`:
+making a toy dataset in your `output_data/` directory, called `feline-data.csv`:
 
 
 ~~~
@@ -56,7 +56,7 @@ tabby,3.2,1
 
 > ## Tip: Editing Text files in R
 >
-> Alternatively, you can create `data/feline-data.csv` using a text editor (Nano),
+> Alternatively, you can create `output_data/feline-data.csv` using a text editor (Nano),
 > or within RStudio with the **File -> New File -> Text File** menu item.
 {: .callout}
 
@@ -64,7 +64,7 @@ We can load this into R via the following:
 
 
 ~~~
-cats <- read.csv(file = "data/feline-data.csv", stringsAsFactors = TRUE)
+cats <- read.csv(file = "output_data/feline-data.csv", stringsAsFactors = TRUE)
 cats
 ~~~
 {: .language-r}
