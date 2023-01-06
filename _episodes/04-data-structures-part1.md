@@ -1384,104 +1384,6 @@ str(cats[1,])
 > {: .solution}
 {: .challenge}
 
-## Matrices
-
-Last but not least is the matrix. We can declare a matrix full of zeros:
-
-
-~~~
-matrix_example <- matrix(0, ncol=6, nrow=3)
-matrix_example
-~~~
-{: .language-r}
-
-
-
-~~~
-     [,1] [,2] [,3] [,4] [,5] [,6]
-[1,]    0    0    0    0    0    0
-[2,]    0    0    0    0    0    0
-[3,]    0    0    0    0    0    0
-~~~
-{: .output}
-
-And similar to other data structures, we can ask things about our matrix:
-
-
-~~~
-class(matrix_example)
-~~~
-{: .language-r}
-
-
-
-~~~
-[1] "matrix" "array" 
-~~~
-{: .output}
-
-
-
-~~~
-typeof(matrix_example)
-~~~
-{: .language-r}
-
-
-
-~~~
-[1] "double"
-~~~
-{: .output}
-
-
-
-~~~
-str(matrix_example)
-~~~
-{: .language-r}
-
-
-
-~~~
- num [1:3, 1:6] 0 0 0 0 0 0 0 0 0 0 ...
-~~~
-{: .output}
-
-
-
-~~~
-dim(matrix_example)
-~~~
-{: .language-r}
-
-
-
-~~~
-[1] 3 6
-~~~
-{: .output}
-
-
-
-~~~
-nrow(matrix_example)
-~~~
-{: .language-r}
-
-
-
-~~~
-[1] 3
-~~~
-{: .output}
-
-
-
-~~~
-ncol(matrix_example)
-~~~
-{: .language-r}
 
 
 
@@ -1491,6 +1393,7 @@ ncol(matrix_example)
 {: .output}
 
 > ## Challenge 4
+> SKIP! We didn't do matrices
 >
 > What do you think will be the result of
 > `length(matrix_example)`?
@@ -1523,7 +1426,8 @@ ncol(matrix_example)
 
 
 > ## Challenge 5
->
+> 
+> SKIP we didn't do matrices
 > Make another matrix, this time containing the numbers 1:50,
 > with 5 columns and 10 rows.
 > Did the `matrix` function fill your matrix by column, or by
@@ -1577,6 +1481,7 @@ ncol(matrix_example)
 
 > ## Challenge 7
 >
+> SKIP! 
 > Consider the R output of the matrix below:
 > 
 > ~~~
