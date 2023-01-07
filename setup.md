@@ -9,8 +9,16 @@
   {% endif %}
   workshop,
   you will need access to software as described below.
+
+* Gapminder Dataset
+* R (version 4.2.1 or greater)
+* Rstudio (version 2022.7 or greater)
+* Tidyverse package
+
   In addition, you will need an up-to-date web browser.
 </p>
+
+
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
