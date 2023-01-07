@@ -51,6 +51,28 @@ To update RStudio to the latest version, open RStudio and click on Help > Check 
 {% include warning-flavor.html %}
 {% endif %}
 
+## Install required R packages
+During the course we will need a number of R packages. Packages contain useful R code written by other people. We will use the packages tidyverse, hexbin, patchwork, and RSQLite.
+
+To try to install these packages, open RStudio and copy and paste the following command into the console window (look for a blinking cursor on the bottom left), then press the Enter (Windows and Linux) or Return (MacOS) to execute the command.
+
+~~~
+install.packages("tidyverse")
+~~~
+{: .language-r}
+
+Alternatively, you can install the packages using RStudio’s graphical user interface by going to Tools > Install Packages and typing the names of the packages separated by a comma.
+
+R tries to download and install the packages on your machine. When the installation has finished, you can try to load the packages by pasting the following code into the console:
+~~~
+library(tidyverse)
+~~~
+{: .language-r}
+
+If you do not see an error like there is no package called ‘...’ you are good to go!
+
+
+
 {% comment %}
 The following setup instructions are commented out because Carpentries workshops
 cover the these topics less frequently. Please uncomment the lines that
