@@ -122,7 +122,7 @@ collections:
     permalink: /:path/index.html
   extras:
     output: true
-    permalink: /:path/index.html
+    permalink: /extras/index.html
 
 # Set the default layout for things in the episodes collection.
 defaults:
