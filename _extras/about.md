@@ -11,8 +11,7 @@ During the introduction, play with the
 * Download gapminder here as a demo. In episode 2, 
   we will get it again as part of a repo.
 * Setting up the RStudio project is a giant preview of episode 2
-**  This will enable us to 
-  skip (or review) loading the data in episodes 3 & 5
+  *  This will enable us to skip (or review) loading the data in episodes 3 & 5
 
 
 ### Episode 2
@@ -33,7 +32,11 @@ During the introduction, play with the
 
 ### Episode 4
 
+* This lesson is a LOT of typing.
+* Don't expect Learners to solve Challenge 1, but give them time.
 * Skip matrices--and all subsequent mentions of them
+* Matrix-related text was removed. Challenges are marked as 'don't do'
+* Remaining challenges are 1, 2, 3, and 6
 * Can you squeeze in gapminder examples along the way?
 
 ### Episode 5
