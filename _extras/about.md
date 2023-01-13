@@ -8,19 +8,22 @@ During the introduction, play with the
 [GapMinder data in this interface](https://www.gapminder.org/resources/)
 
 ### Episode 1: Introduction to R and RStudio
-* We will load gapminder in episode one, so we can
-  skip (or review) loading the data in episodes 3 & 5
+* Download gapminder here as a demo. In episode 2, 
+  we will get it again as part of a repo.
 * Setting up the RStudio project is a giant preview of episode 2
-* Download the csv and put it in the data folder. 
+**  This will enable us to 
+  skip (or review) loading the data in episodes 3 & 5
+
 
 ### Episode 2
-* Demo starting a new project by cloning the 
-  solution repo. It will also have the gapminder data
+* Demo starting a new project by cloning the [solution 
+  repo](https://github.com/jonjab/r-gapminder-solutions). 
+* The gapminder csv will be in the data folder. 
 * Save and push one script per episode!
 * Run through the 'solutions script' to demonstrate everything
   we are going to cover in the workshop
 * Running a script from top-to-bottom with no errors 
-  Is an important part of reproducibility!
+  is an important part of reproducibility!
 
 ### Episode 3
 * If you managed to get help all the ways listed
@@ -29,6 +32,9 @@ During the introduction, play with the
 * This is an excellent place to make up spare time.
 
 ### Episode 4
+
+* Skip matrices--and all subsequent mentions of them
+* Can you squeeze in gapminder examples along the way?
 
 ### Episode 5
 
