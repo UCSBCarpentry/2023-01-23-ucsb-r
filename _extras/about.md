@@ -40,10 +40,13 @@ During the introduction, play with the
 * Can you squeeze in gapminder examples along the way?
 
 ### Episode 5
+* skip non-unique names down to 'Data frames'
+
 
 ### Episode 6
 
-### Episode 16 (partial)
+### Episode 13 (partial)
+# Stop at 'Connect mutate with logical filtering'
 
 ### Episode 8: ggplot
 
