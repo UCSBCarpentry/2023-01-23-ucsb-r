@@ -1,16 +1,32 @@
 
+# Pre-Workshop Setup
+
 {% assign curricula = "swc-gapminder|swc-inflammation"  | split: "|" %}
 {% unless curricula contains site.curriculum %}
 {% include warning-curriculum.html %}
 {% endunless %}
-<br>
 
-You will need access to software and data as described below.
+For this workshop, you have the option of using the Jupyter Hub Instance to use Rstudio. If you would like to install the software on your own device, you
+will need to access software and data as described below: 
 
 * Gapminder Dataset
-* R (version 4.2.1 or greater) 
-* Rstudio (version 2022.7 or greater) 
-* Tidyverse Package 
+* R (version 4.2.1 or greater)
+* Rstudio (version 2022.7 or greater)
+* Tidyverse Package
+
+Scroll past the Jupyter Hub to view the Data download and R/Rstudio installation instructions. 
+
+
+> ## Logging into the RStudio Jupyter Hub Instance
+> 
+For this workshop, we will be using a Jupyter Hub Instance that LSIT has graciously setup for us with the software and packages preinstalled. <br>
+Please use your UCSB NETID to sign into the Jupyter Hub at: [https://carpentryworkshop.lsit.ucsb.edu/](https://carpentryworkshop.lsit.ucsb.edu/) 
+Once you have signed in, click the RStudio Launcher button.
+**You do not need to follow the setup instructions below if you plan on using the Jupyter Hub Interface rather than RStudio on your own computer**
+{: .prereq}
+<br>
+![jupyter-instance](/fig/setup-jupyter-instance.PNG)
+<br>
 
 ## Data Download
 
