@@ -44,6 +44,9 @@ During the introduction, play with the
 
 
 ### Episode 6
+* skip `%in% under removing columns.
+* Use alternate challenge #4
+
 
 ### Episode 13 (partial)
 # Stop at 'Connect mutate with logical filtering'
