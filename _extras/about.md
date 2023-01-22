@@ -48,8 +48,8 @@ During the introduction, play with the
 * Use alternate challenge #4
 
 
-### Episode 13 (partial)
-# Stop at 'Connect mutate with logical filtering'
+### Episode 7: Data Frame Manipulation w/dplyr (partial)
+* Stop at 'Connect mutate with logical filtering'
 
 ### Episode 8: ggplot
 
